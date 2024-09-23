@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/love.png" rel="icon">
+    <title>HAPPY BIRTHDAY AUL</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="img/logo.png" alt="Logo" class="logo">
+            <span class="nama-sekolah">HAPPY BIRTHDAY AUL!!!</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#musik">Kurikulum</a></li>
+            <li><a href="#">Kegiatan</a></li>
+            <li><a href="#">Alumni</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    
+    <section id="home" class="popup-animation">
+      <div class="hero-section">
+          <div class="content">
+              <h1 class="popup-text">How to say<br>Happy Birthday To<br>Salsabila Aulia N.Z</h1>
+              <p>This is how Dimas express love. In the meantime you will understand how my brain works As you see this, Dimas want to say happy birthday to Salasbila Aulia Nur Zahra.</p>
+              <div class="buttons">
+                  <!-- Tombol Get Started untuk scroll ke bagian lain -->
+                  <a href="#about" class="btn get-started">Get Started</a>
+              </div>
+          </div>
+      </div>
+  </section>
+  
+  
+  <section id="about" class="profil-jurusan popup-on-scroll">
+    <div class="main-content">
+        <div class="text-content">
+            <div class="title-wrapper">
+                <h1>TODAY IS YOUR</h1>
+                <span class="jurusan-text">BIRTHDAY</span>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="image-content">
+                <img src="img/aull.png" alt="Image">
+            </div>
+
+            <div class="text-description">
+                <p>Hi Aul,</p>
+
+                <p>I've been thinking about what I want to write for your birthday, and there are a few things I want to share with you. Even though we don't know each other very well, I remember you once said that we are friends.</p>
+                <p>Selamat ulang tahun Aull! Semoga di usia yang baru ini kamu selalu diberi kebahagiaan, kesehatan, dan kesuksesan dalam setiap langkahmu, semoga semua harapan dan cita-citamu tercapai. Jangan lupa untuk menikmati hari spesialmu!</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section id="musik" class="staf-pengajar">
+  <h1>HAPPY BIRTHDAY</h1>
+  <p>Tolong kamu pencet semua musiknya, itu bisa dipencet dan diputar juga musiknya.</p>
+  <div class="slider">
+    <div class="slide staf-card-container">
+        <div class="staf-card">
+            <img src="img/alexandra.webp" alt="Jajat Sudrajat" onclick="openModal('modal1', 'audio1')">
+            <h4>ALEXANDRA</h4>
+            <p>Reality Club</p>
+        </div>
+
+        <div class="staf-card">
+            <img src="img/anything.jpeg" alt="Yanto Supriyanto" onclick="openModal('modal2', 'audio2')">
+            <h4>ANYTHING Y OU WANT</h4>
+            <p>Reality Club</p>
+        </div>
+
+        <div class="staf-card">
+            <img src="img/heavy.jpeg" alt="RD. Gilang Yudiaputra" onclick="openModal('modal3', 'audio3')">
+            <h4>HEAVY</h4>
+            <p>The Marias</p>
+        </div>
+
+        <div class="staf-card">
+            <img src="img/seasons.jpeg" alt="Ade Popon" onclick="openModal('modal4', 'audio4')">
+            <h4>SEASONS.</h4>
+            <p>Wave To Earth</p>
+        </div>
+    </div>
+</div>
+<!-- Modal 1 -->
+<div id="modal1" class="modal">
+<div style="position: relative; display: inline-block;">
+  <button class="close" onclick="closeModal('modal1', 'audio1')">&times;</button>
+  <img src="img/salsabila.png" alt="Jajat Sudrajat">
+</div>
+<div class="caption">
+  <h4>ALEXANDRA</h4>
+  <p>Reality Club</p>
+</div>
+<audio id="audio1">
+  <source src="audio/alexandra.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal2" class="modal">
+<div style="position: relative; display: inline-block;">
+  <button class="close" onclick="closeModal('modal2', 'audio2')">&times;</button>
+  <img src="img/Screenshot 2024-09-22 123507.png" alt="Yanto Supriyanto">
+</div>
+<div class="caption">
+  <h4>ANYTHING YOU WANT</h4>
+  <p>Reality Club</p>
+</div>
+<audio id="audio2">
+  <source src="audio/anything you want.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal3" class="modal">
+<div style="position: relative; display: inline-block;">
+  <button class="close" onclick="closeModal('modal3', 'audio3')">&times;</button>
+  <img src="img/Screenshot 2024-09-22 123221.png" alt="RD. Gilang Yudiaputra">
+</div>
+<div class="caption">
+  <h4>Heavy</h4>
+  <p>The Marias</p>
+</div>
+<audio id="audio3">
+  <source src="audio/heavy.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal4" class="modal">
+<div style="position: relative; display: inline-block;">
+  <button class="close" onclick="closeModal('modal4', 'audio4')">&times;</button>
+  <img src="img/aul.png" alt="Ade Popon">
+</div>
+<div class="caption">
+  <h4>SEASONS</h4>
+  <p>Wave To Earth</p>
+</div>
+<audio id="audio4">
+  <source src="audio/seasons.mp3" type="audio/mp3">
+  Your browser does not support the audio element.
+</audio>
+</div>
+
+
+<div class="slider">
+<div class="slide staf-card-container">
+    <div class="staf-card">
+        <img src="img/why can't I.webp" alt="Jajat Sudrajat" onclick="openModal('modal5', 'audio5')">
+        <h4>WHY CAN'T I</h4>
+        <p> Nathaniel Constantin</p>
+    </div>
+
+    <div class="staf-card">
+      <img src="img/party anthem.jpg" alt="party anthem" onclick="openModal('modal6', 'audio6')">
+      <h4>NO 1PARTY ANTHEM</h4>
+      <p>Artic Monkey</p>
+    </div>
+
+    <div class="staf-card">
+        <img src="img/margaret.jpeg" alt="RD. Gilang Yudiaputra" onclick="openModal('modal7', 'audio7')">
+        <h4>MARGARET</h4>
+        <p>Lana Del Rey</p>
+    </div>
+
+    <div class="staf-card">
+        <img src="img/niki.jpeg" alt="Ade Popon" onclick="openModal('modal8', 'audio8')">
+        <h4>TAKE A CHANCE WITH ME</h4>
+        <p>NIKI</p>
+    </div>
+</div>
+</div>
+</div>
+<!-- Modal 1 -->
+<div id="modal5" class="modal">
+<div style="position: relative; display: inline-block;">
+<button class="close" onclick="closeModal('modal5', 'audio5')">&times;</button>
+<img src="img/aull.png" alt="Jajat Sudrajat">
+</div>
+<div class="caption">
+<h4>WHY CAN'T I</h4>
+<p> Nathaniel Constantin</p>
+</div>
+<audio id="audio5">
+<source src="audio/why cant i.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 2 -->
+<div id="modal6" class="modal">
+<div style="position: relative; display: inline-block;">
+<button class="close" onclick="closeModal('modal6', 'audio6')">&times;</button>
+<img src="img/aul-party-anthem.png" alt="Yanto Supriyanto">
+</div>
+<div class="caption">
+<h4>NO 1 PARTY ANTHEM</h4>
+<p>Artic Monkey</p>
+</div>
+<audio id="audio6">
+<source src="audio/PARTY.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 3 -->
+<div id="modal7" class="modal">
+<div style="position: relative; display: inline-block;">
+<button class="close" onclick="closeModal('modal7', 'audio7')">&times;</button>
+<img src="img/aul margaret.png" alt="RD. Gilang Yudiaputra">
+</div>
+<div class="caption">
+<h4>MARGARET</h4>
+<p>Lana Del Rey</p>
+</div>
+<audio id="audio7">
+<source src="audio/margaret.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<!-- Modal 4 -->
+<div id="modal8" class="modal">
+<div style="position: relative; display: inline-block;">
+<button class="close" onclick="closeModal('modal8', 'audio8')">&times;</button>
+<img src="img/aulniki.png" alt="Ade Popon">
+</div>
+<div class="caption">
+  <h4>TAKE A CHANCE WITH ME</h4>
+  <p>NIKI</p>
+</div>
+<audio id="audio8">
+<source src="audio/niki.mp3" type="audio/mp3">
+Your browser does not support the audio element.
+</audio>
+</div>
+
+<div class="slider">
+  <div class="slide staf-card-container">
+      <div class="staf-card">
+          <img src="img/love.png" alt="Jajat Sudrajat" onclick="openModal('modal9', 'audio9')">
+          <h4>?</h4>
+          <p>Yang Ini Special</p>
+      </div>
+
+      <div id="modal9" class="modal">
+        <div style="position: relative; display: inline-block;">
+        <button class="close" onclick="closeModal('modal9', 'audio9')">&times;</button>
+        <img src="img/aul yalal yalili.png" alt="Ade Popon">
+        </div>
+        <div class="caption">
+        <h4>MAA SYAA ALLAH</h4>
+        </div>
+        <audio id="audio9">
+        <source src="audio/yali yalili.mpeg" type="audio/mp3">
+        Your browser does not support the audio element.
+        </audio>
+        </div>
+</section>
+
+
+<section id="sejarah"  class="about-rpl popup-on-scroll">
+  <div class="tentang-rpl">
+      <div class="about-image">
+          <img src="img/follow.png" alt="RPL Image">
+      </div>
+      <div class="about-text">
+          <h2>RPL</h2>
+          <div class="underline-yelloww"></div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu posuere nisl, in efficitur turpis. In consectetur, diam ut molestie dictum, tortor ligula pharetra eros, nec fermentum lorem est a nisi. Duis et vehicula enim. Integer nec lorem lacus. Nunc ut porta massa.</p>
+      </div>
+  </div>
+  <br>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
